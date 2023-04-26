@@ -1,29 +1,30 @@
-import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
-import Cover from '../assets/cover.jpg'
-import Cover1 from '../assets/cover1.jpg'
-
+import React from 'react';
+import {
+  MDBCarousel,
+  MDBCarouselItem,
+} from 'mdb-react-ui-kit';
 
 export default function Basic() {
-    
-
-    return (
-        <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={Cover}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={Cover1}
-            alt="Second slide"
-          />
-        </Carousel.Item>
-         
-      </Carousel>
-    )
+  return (
+    <MDBCarousel showControls fade>
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={1}
+        src='https://mdbootstrap.com/img/new/slides/041.jpg'
+        alt='...'
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={2}
+        src='https://mdbootstrap.com/img/new/slides/042.jpg'
+        alt='...'
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={3}
+        src='https://mdbootstrap.com/img/new/slides/043.jpg'
+        alt='...'
+      />
+    </MDBCarousel>
+  );
 }

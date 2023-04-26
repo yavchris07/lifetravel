@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
-import Basic from "./Basic";
+
+ 
 
 export function Banner( ) {
   return (
@@ -13,7 +14,7 @@ export function Banner( ) {
         </div>
        
         <a href="/about">More</a>
-        <Basic />
+      
       </div>
     </section>
   );
