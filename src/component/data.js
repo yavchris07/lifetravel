@@ -1,15 +1,23 @@
 const data = [
     {
         id:1,
-        title:"Home"
+        title:"Home",
+        link:"/"
     },
     {
         id:2,
-        title:"About"
+        title:"Services",
+        link:"/services"
     },
     {
         id:3,
-        title:"Contacts"
+        title:"About",
+        link:"/about"
     },
+    {
+        id:4,
+        title:"Contacts",
+        link:"/contacts"
+    }
 ]
 export default data;

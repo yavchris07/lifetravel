@@ -1,0 +1,36 @@
+//Home
+
+//About
+.about{
+
+    .res{
+        width: 80%;
+        margin: auto;
+    }
+    .about-box{
+        width: 50%;
+        margin: auto;
+        background: transparent;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 7px;
+
+
+        .about-card{
+            width: 140px;
+            //border: 1px solid  #0c6790;
+            background: transparent;
+            margin: auto;
+            text-align: center;
+            border-bottom: 1px solid  #0c6790;
+
+            h4{
+                color: #0c6790;
+            }
+            p{
+                margin: 0;
+                color: gray;
+            }
+        }
+    }
+}

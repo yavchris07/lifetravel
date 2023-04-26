@@ -1,7 +1,211 @@
+//Navbar
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #efefef;
+    position: absolute;
+    width: 100%;
+    div{
+        // color: #11180c;
+        // font-weight: bold;
+        img{
+            width: 150px;
+        }
+
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        font-size: 18px;
+        color: #0c6790;
+        Link{
+            text-decoration: none;
+            color: #0c6790;
+        }
+    }
+    .icons{
+        background: transparent;
+        color: #008000;
+        padding: 3px 8px;
+        font-size: 25px;
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+
 .banner{
     width: 100%;
     height: 35rem;
-    background: url('../assets/litravels1.png') no-repeat;
+    background: url('../assets/cover.jpg') no-repeat;
     // background: url('../assets/lifetravels2.jpg') no-repeat;
     background-size: cover;
+ 
+
+    .banner-cover{
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255, 0.3);
+
+        .banner-title{
+            display: flex;
+            justify-content: space-between;
+            background: transparent;
+            padding-top: 10rem;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 15px;
+            // text-align: center;
+            p{
+                font-size: 3rem;
+                padding-top: 3rem;
+                //color: #0c6790;
+                color: #008000; 
+                font-size:3rem;
+            }
+            h4{
+                color: #008000; 
+                
+            }
+        }
+        
+        a{
+            text-decoration: none;
+            outline: none;
+            border: none;
+            border-radius: 5rem;
+            background:  #27500a;
+            padding: 6px 50px;
+            margin-left: 9rem;
+            color: #fff;
+            &:hover{
+                background: #0c6790;
+                border: 2px solid #0c6790;
+            }
+        }
+    }
+}
+
+.all-title{
+    background: transparent;
+    margin: 8px;
+    padding: 0;
+    h5{
+        font-size: 28px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-weight: 300;
+    }
+}
+
+//banner area
+.banner-are{
+    width: 100%;
+    height: 24rem;
+    background: url('../assets//cover1.jpg') no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    .banner-area-cover{
+        width: 100%;
+        height: 100%;
+        background: rgba(11, 15, 7, 0.5);
+        text-align: center;
+        h4{
+            color: #efefef;
+            font-weight: 500;
+            padding: 2rem;
+            font-size: 4rem;
+        }
+    }
+}
+
+//container : card 
+.container{
+    width: 80%;
+    margin: auto;
+    background: transparent;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5rem;
+    padding: 5px;
+
+    .card{
+        background: #0c6790;
+        width: 350px;
+        text-align: center;
+        border: 1px solid #efefef;
+        h4{
+            color: #efefef;
+            font-weight: 300;
+        }
+
+    }
+}
+
+
+
+//footer
+.footer{
+    width: 100%;
+    height: 28rem;
+    background: #27500a;
+    color: #efefef;
+    text-align: center;
+
+    .box{
+        background: transparent;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 4.5rem;
+        padding: 12px 50px;
+        width: 80%;
+        margin: auto;
+        .pol{
+            background: transparent;
+            text-align: start;
+            color: gray;
+            font-size: 15px;
+            color: #efefef;
+            font-weight: 200;
+            h5{
+                font-weight: bold;
+                color: #efefef;
+            }
+        }
+        .address{
+            color: gray;
+            text-align: start;
+            font-size: 15px;
+            color: #efefef;
+            h5{
+                font-weight: bold;
+                color: #efefef;
+            }
+
+        }
+        .coordonne{
+            color: gray;
+            text-align: start;
+            font-size: 15px;
+            color: #efefef;
+            h5{
+                font-weight: bold;
+                color: #efefef;
+            }
+            p{
+                span{
+                    color: #0c6790;
+                }
+            }
+        }
+    }
+
+    p{
+        font-weight: 300;
+    }
+    
 }
