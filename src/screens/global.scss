@@ -34,3 +34,24 @@
         }
     }
 }
+@media screen and (max-width:600px) {
+    .about{
+
+        .res{
+            width: 95%;
+             
+        }
+        .about-box{
+            width: 100%;
+            grid-template-columns: repeat(2,1fr);
+            margin-bottom: 10px;
+
+            .about-card{
+                width: 150px;
+                //border: 1px solid  #0c6790;
+                text-align: center;
+                border-bottom: 1px solid  #0c6790;
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@ import { Container } from "../component/container";
 //import { BannerArea } from '../component/banner_area'
 //import Basic from '../component/Basic'
 
-export function Home(props) {
+export function Home() {
   return (
     <div className="home">
       <Banner />
