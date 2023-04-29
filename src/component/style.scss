@@ -151,7 +151,6 @@
 //footer
 .footer{
     width: 100%;
-    height: 28rem;
     background: #27500a;
     color: #efefef;
     text-align: center;
@@ -209,3 +208,223 @@
     }
     
 }
+
+
+//responsive 
+
+//Mobile
+@media screen and (max-width:600px) {
+    //Navbar
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #efefef;
+        //background: red;
+        //position: absolute;
+        padding: 2px;
+        width: 100%;
+        height: 6rem;
+        div{
+            // color: #11180c;
+            // font-weight: bold;
+            img{
+                width: 120px;
+            }
+
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            background: transparent;
+            gap: 10px;
+            font-size: 16px;
+            color: #0c6790;
+            position: absolute;
+            margin-top: 5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1px;
+            width: 80%;
+            Link{
+                text-decoration: none;
+                color: #0c6790;
+            }
+        }
+
+    .icons{
+        background: transparent;
+        color: #008000;
+        padding: 1px 3px;
+        font-size: 20px;
+        display: flex;
+        gap: 0.5rem;
+    }
+    }
+
+    //banner
+
+    .banner{
+        width: 100%;
+        height: 35rem;
+        //background: url('../assets/cover.jpg') no-repeat;
+        background: url('../assets/lifetravels2.jpg') no-repeat;
+        background-size: cover;
+    
+        .banner-cover{
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0, 0.5);
+            text-align: center;
+
+            .banner-title{
+                background: transparent;
+                padding-top: 14rem;
+                width: 98%;
+                margin: auto;
+                margin-bottom: 15px;
+                text-align: center;
+                
+                p{
+                    font-size: 2rem;
+                    padding-top: 10px;
+                    //color: #008000;
+                    color: #efefef;
+                    padding-left: 20px;
+                }
+            }
+            
+            a{
+                border-radius: 0.5rem;
+                background:  #27500a;
+                padding: 6px 80px;
+                margin-left: 1px;
+        
+                &:hover{
+                    background: #0c6790;
+                    border: 2px solid #0c6790;
+                }
+            }
+        }
+    }
+
+    //banner area
+    .banner-are{
+        height: 27rem;
+
+        .banner-area-cover{
+            background: rgba(11, 15, 7, 0.6);
+            h4{
+                color: #efefef;
+                font-weight: 500;
+                padding-top:9rem;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    //
+    .all-title{   
+        margin: 6px;
+        h5{
+            font-size: 20px;
+        }
+    }
+
+    //container : card 
+    .container{
+        width: 95%;
+        // background: yellow;
+        margin-bottom: 4px;
+        grid-template-columns: repeat(1,1fr);
+         
+        .card{
+            background: #0c6790;
+            // text-align: center;
+            // border: 1px solid #efefef;
+            h4{
+                // color: #efefef;
+                font-weight: 400;
+            }
+
+        }
+    }
+
+    //footer
+    .footer{
+        width: 100%;
+        // background: #27500a;
+        color: #efefef;
+        text-align: center;
+
+        .box{
+            background:#27500a;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 1rem;
+            padding: 1px 3px;
+            width: 95%;
+            margin: auto;
+            .pol{
+                background: #27500a;
+                text-align: start;
+                color: gray;
+                font-size: 15px;
+                color: #efefef;
+                font-weight: 200;
+                h5{
+                    font-weight: bold;
+                    color: #efefef;
+                    font-size: 18px;
+                }
+            }
+            .address{
+                color: gray;
+                text-align: start;
+                font-size: 15px;
+                color: #efefef;
+                h5{
+                    font-weight: bold;
+                    color: #efefef;
+                    font-size: 18px;
+                }
+
+            }
+            .coordonne{
+                background: #27500a;
+                color: gray;
+                text-align: start;
+                font-size: 15px;
+                color: #efefef;
+                h5{
+                    font-weight: bold;
+                    color: #efefef;
+                    font-size: 18px;
+                }
+                p{
+                    span{
+                        color: #0c6790;
+                    }
+                }
+            }
+        }
+
+        p{
+            font-weight: 300;
+            background: #27500a;
+            font-size: 15px;
+        }
+        
+    }
+
+
+
+
+
+
+
+
+
+}
+
+//

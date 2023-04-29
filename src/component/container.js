@@ -1,8 +1,9 @@
 import './style.scss'
+// import 'aos/dist/aos.css';
+import 'aos/dist/aos.css'
  
-
-
 export function Container() {
+
     const items = [
         {
             id:1,
@@ -32,7 +33,11 @@ export function Container() {
     ]
 
     return (
-        <section className='container' id='container'>
+        <section 
+            className='container' 
+            id='container' 
+            // data-aos='fade-up'
+        >
             {
                 items.map((item) => 
                     <div className='card' key={item.id}>
