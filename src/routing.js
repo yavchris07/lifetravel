@@ -4,6 +4,7 @@ import { About } from './screens/about'
 import { Services } from './screens/services'
 import { Contacts } from './screens/contacts'
 import Navbar from './component/navbar'
+import { ServicesDetails } from './screens/services_details'
 import { Footer } from './component/footer'
 
 export default function Routing (){
@@ -12,6 +13,7 @@ export default function Routing (){
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path='/services/:id' element={<ServicesDetails />}/>
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contacts" element={< Contacts/>} />

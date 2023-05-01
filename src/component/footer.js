@@ -28,7 +28,9 @@ export function Footer() {
                     <p> <span>✅</span> +243858427962</p>
                 </div>
             </div>
-            <p>Copyright © 2023 life travels sarlu, réalisé avec 💛 par fidbagraphics</p>
+            <p className='copy'>
+                Copyright © 2023 life travels sarlu, réalisé par fidbagraphics
+            </p>
         </div>
     )
 }

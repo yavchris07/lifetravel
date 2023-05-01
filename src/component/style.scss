@@ -154,6 +154,7 @@
     background: #27500a;
     color: #efefef;
     text-align: center;
+    padding-bottom: 1.7rem;
 
     .box{
         background: transparent;
@@ -205,6 +206,13 @@
 
     p{
         font-weight: 300;
+        // margin-bottom: 50px;
+    }
+    .copy{
+        font-weight: 300;
+        margin-bottom: 50px;
+        font-size: 18px;
+        background: #27500a;
     }
     
 }
@@ -359,6 +367,7 @@
 
         .box{
             background:#27500a;
+            // background: red;
             display: grid;
             grid-template-columns: repeat(1,1fr);
             gap: 1rem;
@@ -366,7 +375,7 @@
             width: 95%;
             margin: auto;
             .pol{
-                background: #27500a;
+                background: transparent;
                 text-align: start;
                 color: gray;
                 font-size: 15px;
@@ -383,6 +392,7 @@
                 text-align: start;
                 font-size: 15px;
                 color: #efefef;
+                background: transparent;
                 h5{
                     font-weight: bold;
                     color: #efefef;
@@ -391,7 +401,8 @@
 
             }
             .coordonne{
-                background: #27500a;
+                background: transparent;
+                // background: #27500a;
                 color: gray;
                 text-align: start;
                 font-size: 15px;
@@ -414,7 +425,14 @@
             background: #27500a;
             font-size: 15px;
         }
+        .copy{
+            font-weight: 300;
+            margin-bottom: 50px;
+            font-size: 14px;
+             
+        }
         
+
     }
 
 
